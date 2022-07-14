@@ -1,11 +1,12 @@
 import './App.css';
+import Header from './Header/Header';
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header>
         <h1>O Bank tarjetas de credito</h1>
-      </header>
+      </Header>
     </div>
   );
 }
