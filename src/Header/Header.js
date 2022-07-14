@@ -5,11 +5,11 @@ const StyledHeader = styled.header`
   color: #FFFFFF;
   height: 60px;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 30px 0 30px;
   position: fixed;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 `;
 
@@ -22,10 +22,8 @@ const StyledNavigation = styled.nav`
   display: flex;
   flex-direction: row;
   color: #FFFFFF;
-  text-decoration: capitalize;
   list-style-type: none;
   font-size: 0.875rem;
-  flex-shrink: 0;
 `
 
 const StyledUl = styled.ul`
@@ -34,9 +32,10 @@ const StyledUl = styled.ul`
   color: #FFFFFF;
   list-style-type: none;
   justify-content: space-between;
-  width: 100%;
 
   li {
+    margin-right: 30px;
+    
     a {
       cursor: pointer;
       color: #FFFFFF;
