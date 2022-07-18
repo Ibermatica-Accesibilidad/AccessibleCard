@@ -63,7 +63,7 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div className="m-b-5">
-                <ShoppingIcon />
+                <ShoppingIcon alt="Compras" />
               </div>
               05 jul.
             </th>
@@ -79,12 +79,12 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div className="m-b-5">
-                <TravelIcon />
+                <TravelIcon alt="Viajes" />
               </div>
               03 oct.
             </th>
             <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
-            <td>Aplazar compra</td>
+            <td><button type="button">Aplazar compra</button></td>
             <td className="txt-align-right">
               <div className="flex column">
                 <span className="m-b-10">500,00€</span>
@@ -95,7 +95,7 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div className="m-b-5">
-                <HomeIcon />
+                <HomeIcon alt="Hogar" />
               </div>
               05 jul.
             </th>
@@ -111,7 +111,7 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div className="m-b-5">
-                <HealthIcon />
+                <HealthIcon alt="Salud" />
               </div>
               05 jul.
             </th>
@@ -127,7 +127,7 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div className="m-b-5">
-                <ShoppingIcon />
+                <ShoppingIcon alt="compras" />
               </div>
               05 jul.
             </th>
