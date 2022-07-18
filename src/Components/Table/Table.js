@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import "./Table.scss";
-import { ReactComponent as ShoppingIcon } from './../../Assets/Images/icons-shop.svg';
-import { ReactComponent as HealthIcon } from './../../Assets/Images/icons-health.svg';
-import { ReactComponent as HomeIcon } from './../../Assets/Images/icons-home.svg';
-import { ReactComponent as TravelIcon } from './../../Assets/Images/icons-travel.svg';
+import ShoppingIcon from './../../Assets/Images/icons-shop.svg';
+import HealthIcon from './../../Assets/Images/icons-health.svg';
+import HomeIcon from './../../Assets/Images/icons-home.svg';
+import TravelIcon from './../../Assets/Images/icons-travel.svg';
 
 const StyledTable = styled.table`
   width: 100%;
@@ -62,7 +62,7 @@ const Table = () => {
         <tr>
           <th className="flex column txt-align-center">
             <div className="m-b-5">
-              <ShoppingIcon alt="Compras" />
+              <img src={ShoppingIcon} alt="Compras" />
             </div>
             05 jul.
           </th>
@@ -78,7 +78,7 @@ const Table = () => {
         <tr>
           <th className="flex column txt-align-center">
             <div className="m-b-5">
-              <TravelIcon alt="Viajes" />
+              <img src={TravelIcon} alt="Viajes" />
             </div>
             03 oct.
           </th>
@@ -94,7 +94,7 @@ const Table = () => {
         <tr>
           <th className="flex column txt-align-center">
             <div className="m-b-5">
-              <HomeIcon alt="Hogar" />
+              <img src={HomeIcon} alt="Hogar" />
             </div>
             05 jul.
           </th>
@@ -110,7 +110,7 @@ const Table = () => {
         <tr>
           <th className="flex column txt-align-center">
             <div className="m-b-5">
-              <HealthIcon alt="Salud" />
+              <img src={HealthIcon} alt="Salud" />
             </div>
             05 jul.
           </th>
@@ -126,7 +126,7 @@ const Table = () => {
         <tr>
           <th className="flex column txt-align-center">
             <div className="m-b-5">
-              <ShoppingIcon alt="compras" />
+              <img src={ShoppingIcon} alt="compras" />
             </div>
             05 jul.
           </th>
