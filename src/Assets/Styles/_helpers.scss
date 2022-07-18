@@ -12,6 +12,10 @@
     flex-direction: column;
 }
 
+.align-center {
+    align-items: center;
+}
+
 // TEXT ALIGNMENT
 .txt-align-left {
     text-align: left;
@@ -34,16 +38,7 @@
     border-bottom: 1px solid #F1F4F4;
 }
 
-$max: 50;
-$offset: 5;
-$unit: 'px';
-@mixin list-loop($className, $styleName) {
-  $i: 0;
-  @while $i <= $max {
-    #{$className + $i} { 
-      #{$styleName}: #{$i + $unit};
-    }
-    $i: $i + $offset;
-  }
+// VISIBILITY
+.hidden {
+    visibility: hidden;
 }
-@include list-loop('.p-l-', 'padding-left');

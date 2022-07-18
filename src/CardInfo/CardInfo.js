@@ -38,10 +38,6 @@ const CardCredit = styled.div`
   width: 100%;
 `
 
-const CardMovements = styled.div`
-  width: 100%;
-`
-
 const CardInfo = () => {
   return (
     <section>
