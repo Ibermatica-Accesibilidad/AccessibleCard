@@ -13,7 +13,6 @@
     position: relative;
     width: calc(1.5rem * 2);
     height: calc(1.5rem + 2px);
-    // border: 1px solid black;
     border-radius: 1.5rem;
     cursor: pointer;
     user-select: none;
@@ -48,7 +47,7 @@
   &__inside-text {
     font-weight: bold;
     width: auto;
-    line-height: 23px;
+    line-height: 26px;
     font-size: 10px;
     color: #FFFFFF;
     transform: translateX(10px);
