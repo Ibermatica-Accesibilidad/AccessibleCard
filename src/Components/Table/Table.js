@@ -48,101 +48,99 @@ const StyledTable = styled.table`
 
 const Table = () => {
   return (
-    <div className="table-wrapper">
+    <StyledTable>
       <caption className="hidden">Tabla de movimientos de su tarjeta bancaria</caption>
-      <StyledTable>
-        <thead>
-          <tr role="row">
-            <th role="columnheader" scope="col">Fecha y categoria</th>
-            <th className="txt-align-left" role="columnheader" scope="col">Descripción</th>
-            <th role="columnheader" scope="col"></th>
-            <th className="txt-align-right" role="columnheader" scope="col">Importe y situación</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th className="flex column txt-align-center">
-              <div className="m-b-5">
-                <ShoppingIcon alt="Compras" />
-              </div>
-              05 jul.
-            </th>
-            <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
-            <td>Aplazada</td>
-            <td className="txt-align-right">
-              <div className="flex column">
-                <span className="m-b-10">- 1.000,00€</span>
-                <span>Pte. de liquidar</span>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th className="flex column txt-align-center">
-              <div className="m-b-5">
-                <TravelIcon alt="Viajes" />
-              </div>
-              03 oct.
-            </th>
-            <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
-            <td><button type="button">Aplazar compra</button></td>
-            <td className="txt-align-right">
-              <div className="flex column">
-                <span className="m-b-10">500,00€</span>
-                <span>Autorizado</span>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th className="flex column txt-align-center">
-              <div className="m-b-5">
-                <HomeIcon alt="Hogar" />
-              </div>
-              05 jul.
-            </th>
-            <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
-            <td></td>
-            <td className="txt-align-right">
-              <div className="flex column">
-                <span className="m-b-10">- 400,00€</span>
-                <span>Liquidado</span>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th className="flex column txt-align-center">
-              <div className="m-b-5">
-                <HealthIcon alt="Salud" />
-              </div>
-              05 jul.
-            </th>
-            <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
-            <td></td>
-            <td className="txt-align-right">
-              <div className="flex column">
-                <span className="m-b-10">- 400,00€</span>
-                <span>Liquidado</span>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th className="flex column txt-align-center">
-              <div className="m-b-5">
-                <ShoppingIcon alt="compras" />
-              </div>
-              05 jul.
-            </th>
-            <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
-            <td></td>
-            <td className="align-center txt-align-right">
-              <div className="flex column">
-                <span className="m-b-10">- 400,00€</span>
-                <span>Liquidado</span>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </StyledTable>
-    </div>
+      <thead>
+        <tr role="row">
+          <th role="columnheader" scope="col">Fecha y categoria</th>
+          <th className="txt-align-left" role="columnheader" scope="col">Descripción</th>
+          <th role="columnheader" scope="col"></th>
+          <th className="txt-align-right" role="columnheader" scope="col">Importe y situación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th className="flex column txt-align-center">
+            <div className="m-b-5">
+              <ShoppingIcon alt="Compras" />
+            </div>
+            05 jul.
+          </th>
+          <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
+          <td>Aplazada</td>
+          <td className="txt-align-right">
+            <div className="flex column">
+              <span className="m-b-10">- 1.000,00€</span>
+              <span>Pte. de liquidar</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th className="flex column txt-align-center">
+            <div className="m-b-5">
+              <TravelIcon alt="Viajes" />
+            </div>
+            03 oct.
+          </th>
+          <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
+          <td><button type="button">Aplazar compra</button></td>
+          <td className="txt-align-right">
+            <div className="flex column">
+              <span className="m-b-10">500,00€</span>
+              <span>Autorizado</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th className="flex column txt-align-center">
+            <div className="m-b-5">
+              <HomeIcon alt="Hogar" />
+            </div>
+            05 jul.
+          </th>
+          <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
+          <td></td>
+          <td className="txt-align-right">
+            <div className="flex column">
+              <span className="m-b-10">- 400,00€</span>
+              <span>Liquidado</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th className="flex column txt-align-center">
+            <div className="m-b-5">
+              <HealthIcon alt="Salud" />
+            </div>
+            05 jul.
+          </th>
+          <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
+          <td></td>
+          <td className="txt-align-right">
+            <div className="flex column">
+              <span className="m-b-10">- 400,00€</span>
+              <span>Liquidado</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th className="flex column txt-align-center">
+            <div className="m-b-5">
+              <ShoppingIcon alt="compras" />
+            </div>
+            05 jul.
+          </th>
+          <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
+          <td></td>
+          <td className="align-center txt-align-right">
+            <div className="flex column">
+              <span className="m-b-10">- 400,00€</span>
+              <span>Liquidado</span>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </StyledTable>
   );
 };
 
