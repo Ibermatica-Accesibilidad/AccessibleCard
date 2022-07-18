@@ -12,6 +12,7 @@ const StyledHeader = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 
   h1 {
     color: #FFFFFF;

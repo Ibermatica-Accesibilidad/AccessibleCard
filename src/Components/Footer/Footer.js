@@ -10,6 +10,7 @@ const StyledFooter = styled.footer`
   background-color: #E9F5E7;
   bottom: 0;
   position: fixed;
+  z-index: 10;
 
   p {
     margin-left: 20px;
