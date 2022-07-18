@@ -8,9 +8,9 @@ const Switch = (props) => {
   return (
     <div className="switch">
         <div className="switch__label" id="switch-label" aria-hidden="true" data-id="text">{props.label}</div>
-        <div className="switch__toogle-wrapper" onClick={() => setActive((prevActive) => !prevActive)}>
-          <div role="checkbox" aria-checked={active} aria-labelledby="switch-label" className="switch__toggle">{active}</div>
-          <div className="switch__inside-text" >{active ? 'ON' : 'OFF'}</div>
+        <div className={`switch__toogle-wrapper ${active ? 'checked' : null}`} onClick={() => setActive((prevActive) => !prevActive)}>
+          <div role="checkbox" aria-checked={active} aria-labelledby="switch-label" className={`switch__toggle ${active ? 'checked' : null}`}>{active}</div>
+          <div className={`switch__inside-text ${active ? 'checked' : null}`}>{active ? 'ON' : 'OFF'}</div>
           <input
           className="switch__input"
           aria-labelledby="switch-label"
