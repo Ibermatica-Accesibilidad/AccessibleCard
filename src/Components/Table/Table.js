@@ -37,6 +37,11 @@ const StyledTable = styled.table`
       }
     }
   }
+
+  svg {
+    width: 35px;
+    height: 35px;
+  }
 `;
 
 const Table = () => {
@@ -56,7 +61,7 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div aria-hidden="true">
-                <ShoppingIcon width="35" />
+                <ShoppingIcon />
               </div>
               05 jul.
             </th>
@@ -72,7 +77,7 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div aria-hidden="true">
-                <TravelIcon width="35" />
+                <TravelIcon />
               </div>
               03 oct.
             </th>
@@ -88,7 +93,7 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div aria-hidden="true">
-                <HomeIcon width="35" />
+                <HomeIcon />
               </div>
               05 jul.
             </th>
@@ -104,7 +109,7 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div aria-hidden="true">
-                <HealthIcon width="35" />
+                <HealthIcon />
               </div>
               05 jul.
             </th>
@@ -120,7 +125,7 @@ const Table = () => {
           <tr>
             <th className="flex column txt-align-center">
               <div aria-hidden="true">
-                <ShoppingIcon width="35" />
+                <ShoppingIcon />
               </div>
               05 jul.
             </th>
