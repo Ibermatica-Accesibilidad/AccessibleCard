@@ -32,6 +32,9 @@ const StyledTable = styled.table`
 
       th {
         padding: 10px;
+        color: #436374;
+        font-size: 15px;
+        font-weight: 500;
       }
 
       td {
