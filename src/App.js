@@ -9,7 +9,7 @@ const App = () => {
       <Header>
         <h1>O Bank tarjetas de credito</h1>
       </Header>
-      <div className="content">
+      <div id="content" className="content">
         <CardInfo />
       </div>
       <Footer />

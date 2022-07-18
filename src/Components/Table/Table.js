@@ -25,6 +25,8 @@ const StyledTable = styled.table`
   }
 
   tbody {
+    padding: 0 20px;
+
     tr {
       border-bottom: 1px solid #E3E9E9;
 
@@ -46,21 +48,21 @@ const StyledTable = styled.table`
 
 const Table = () => {
   return (
-    <div>
+    <div className="table-wrapper">
       <caption className="hidden">Tabla de movimientos de su tarjeta bancaria</caption>
       <StyledTable>
         <thead>
-          <tr>
-            <th>Fecha y categoria</th>
-            <th className="txt-align-left">Descripción</th>
-            <th></th>
-            <th className="txt-align-right">Importe y situación</th>
+          <tr role="row">
+            <th role="columnheader" scope="col">Fecha y categoria</th>
+            <th className="txt-align-left" role="columnheader" scope="col">Descripción</th>
+            <th role="columnheader" scope="col"></th>
+            <th className="txt-align-right" role="columnheader" scope="col">Importe y situación</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th className="flex column txt-align-center">
-              <div aria-hidden="true">
+              <div className="m-b-5">
                 <ShoppingIcon />
               </div>
               05 jul.
@@ -69,14 +71,14 @@ const Table = () => {
             <td>Aplazada</td>
             <td className="txt-align-right">
               <div className="flex column">
-                <span>- 1.000,00€</span>
+                <span className="m-b-10">- 1.000,00€</span>
                 <span>Pte. de liquidar</span>
               </div>
             </td>
           </tr>
           <tr>
             <th className="flex column txt-align-center">
-              <div aria-hidden="true">
+              <div className="m-b-5">
                 <TravelIcon />
               </div>
               03 oct.
@@ -85,14 +87,14 @@ const Table = () => {
             <td>Aplazar compra</td>
             <td className="txt-align-right">
               <div className="flex column">
-                <span>500,00€</span>
+                <span className="m-b-10">500,00€</span>
                 <span>Autorizado</span>
               </div>
             </td>
           </tr>
           <tr>
             <th className="flex column txt-align-center">
-              <div aria-hidden="true">
+              <div className="m-b-5">
                 <HomeIcon />
               </div>
               05 jul.
@@ -101,14 +103,14 @@ const Table = () => {
             <td></td>
             <td className="txt-align-right">
               <div className="flex column">
-                <span>- 400,00€</span>
+                <span className="m-b-10">- 400,00€</span>
                 <span>Liquidado</span>
               </div>
             </td>
           </tr>
           <tr>
             <th className="flex column txt-align-center">
-              <div aria-hidden="true">
+              <div className="m-b-5">
                 <HealthIcon />
               </div>
               05 jul.
@@ -117,14 +119,14 @@ const Table = () => {
             <td></td>
             <td className="txt-align-right">
               <div className="flex column">
-                <span>- 400,00€</span>
+                <span className="m-b-10">- 400,00€</span>
                 <span>Liquidado</span>
               </div>
             </td>
           </tr>
           <tr>
             <th className="flex column txt-align-center">
-              <div aria-hidden="true">
+              <div className="m-b-5">
                 <ShoppingIcon />
               </div>
               05 jul.
@@ -133,7 +135,7 @@ const Table = () => {
             <td></td>
             <td className="align-center txt-align-right">
               <div className="flex column">
-                <span>- 400,00€</span>
+                <span className="m-b-10">- 400,00€</span>
                 <span>Liquidado</span>
               </div>
             </td>

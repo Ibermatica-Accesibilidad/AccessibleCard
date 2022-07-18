@@ -1,0 +1,25 @@
+$max: 50;
+$offset: 5;
+$unit: 'px';
+
+@mixin spaces-generator($className, $styleName) {
+  $i: 0;
+  @while $i <= $max {
+    #{$className + $i} { 
+      #{$styleName}: #{$i + $unit};
+    }
+    $i: $i + $offset;
+  }
+}
+
+// Margins
+@include spaces-generator('.m-t-', 'margin-top');
+@include spaces-generator('.m-r-', 'margin-right');
+@include spaces-generator('.m-b-', 'margin-bottom');
+@include spaces-generator('.m-l-', 'margin-left');
+
+// Paddings
+@include spaces-generator('.p-t-', 'padding-top');
+@include spaces-generator('.p-r-', 'padding-right');
+@include spaces-generator('.p-b-', 'padding-bottom');
+@include spaces-generator('.p-l-', 'padding-left');
