@@ -1,0 +1,12 @@
+.cardinfo { 
+  &__icon-wraper {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    img {
+      width: 100%;
+      vertical-align: top;
+    }
+  }
+}

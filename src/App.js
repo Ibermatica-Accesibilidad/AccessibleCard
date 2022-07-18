@@ -1,5 +1,7 @@
-import './App.css';
-import Header from './Header/Header';
+import './App.scss';
+import Header from './Components/Header/Header';
+import CardInfo from './CardInfo/CardInfo';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
@@ -7,6 +9,10 @@ const App = () => {
       <Header>
         <h1>O Bank tarjetas de credito</h1>
       </Header>
+      <div className="content">
+        <CardInfo />
+      </div>
+      <Footer />
     </div>
   );
 }

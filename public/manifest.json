@@ -1,6 +1,8 @@
 {
+  "name": "React Accessible Card Sample",
   "short_name": "Accessible Card",
-  "name": "Create React Accessible Card Sample",
+  "lang": "es-ES",
+  "orientation": "any",
   "icons": [
     {
       "src": "favicon.ico",
