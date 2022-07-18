@@ -52,7 +52,7 @@ const StyledNavigation = styled.nav`
 const Header = () => {
   return (
     <StyledHeader>
-      <h1>Digital Bank - Tus tarjetas de un vistazo</h1>
+      <h1>Virtual Bank - Tus tarjetas de un vistazo</h1>
       <StyledNavigation>
         <ul>
           <li><a href="inicio.html">Inicio</a></li>
