@@ -26,6 +26,7 @@ const StyledTable = styled.table`
 
   tbody {
     padding: 0 20px;
+    font-size: 14px;
 
     tr {
       border-bottom: 1px solid #E3E9E9;
@@ -33,7 +34,6 @@ const StyledTable = styled.table`
       th {
         padding: 10px;
         color: #436374;
-        font-size: 14px;
         font-weight: 500;
       }
 
