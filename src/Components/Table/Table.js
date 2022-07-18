@@ -33,7 +33,7 @@ const StyledTable = styled.table`
       th {
         padding: 10px;
         color: #436374;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
       }
 
