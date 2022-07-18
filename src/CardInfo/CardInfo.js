@@ -43,7 +43,7 @@ const CardInfo = () => {
     <section>
       <CardDetailsWrapper>
         <div className="cardinfo__icon-wraper">
-          <img src={CardIcon} alt="Imagen tarjeta" />
+          <img src={CardIcon} alt="" />
         </div>
         <CardCreditWrapper>
           <CardTitle>
