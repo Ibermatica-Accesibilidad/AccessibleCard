@@ -11,14 +11,10 @@ const Switch = (props) => {
         {props.label}
       </div>
       <div
-        className={`switch__toogle-wrapper ${active ? "checked" : null}`}
+                  className={`switch__toogle-wrapper ${active ? "checked" : null}`}
         onClick={() => setActive((prevActive) => !prevActive)}
       >
         <div
-          role="checkbox"
-          tabindex="0"
-          aria-checked={active}
-          aria-labelledby={props.id}
           className={`switch__toggle ${active ? "checked" : null}`}
         >
           {active}
@@ -29,9 +25,7 @@ const Switch = (props) => {
         <input
           className="switch__input"
           aria-labelledby="switch-label"
-          aria-hidden="true"
-          type="checkbox"
-          tabindex="-1"
+                    type="checkbox"
           checked={active}
           onChange={updateCheckbox}
         />
