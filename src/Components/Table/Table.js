@@ -57,7 +57,7 @@ const Table = () => {
         <tr role="row">
           <th role="columnheader" scope="col">Fecha y categoría</th>
           <th className="txt-align-left" role="columnheader" scope="col">Descripción</th>
-          <th role="columnheader" scope="col"><span class="sr-only">Estado</span></th>
+          <th role="columnheader" scope="col"><span className="sr-only">Estado</span></th>
           <th className="txt-align-right" role="columnheader" scope="col">Importe y situación</th>
         </tr>
       </thead>
@@ -73,7 +73,7 @@ const Table = () => {
           <td>Aplazada</td>
           <td className="txt-align-right">
             <div className="flex column">
-              <span className="m-b-10">-1.000,00€</span>
+              <span className="m-b-10 bold">-1.000,00€</span>
               <span>Pte. de liquidar</span>
             </div>
           </td>
@@ -89,7 +89,7 @@ const Table = () => {
           <td><button type="button">Aplazar compra</button></td>
           <td className="txt-align-right">
             <div className="flex column">
-              <span className="m-b-10">500,00€</span>
+              <span className="m-b-10 bold">500,00€</span>
               <span>Autorizado</span>
             </div>
           </td>
@@ -105,7 +105,7 @@ const Table = () => {
           <td></td>
           <td className="txt-align-right">
             <div className="flex column">
-              <span className="m-b-10">-400,00€</span>
+              <span className="m-b-10 bold">-400,00€</span>
               <span>Liquidado</span>
             </div>
           </td>
@@ -121,7 +121,7 @@ const Table = () => {
           <td></td>
           <td className="txt-align-right">
             <div className="flex column">
-              <span className="m-b-10">-400,00€</span>
+              <span className="m-b-10 bold">-400,00€</span>
               <span>Liquidado</span>
             </div>
           </td>
@@ -137,7 +137,7 @@ const Table = () => {
           <td></td>
           <td className="align-center txt-align-right">
             <div className="flex column">
-              <span className="m-b-10">-400,00€</span>
+              <span className="m-b-10 bold">-400,00€</span>
               <span>Liquidado</span>
             </div>
           </td>
