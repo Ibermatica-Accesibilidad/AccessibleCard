@@ -49,8 +49,8 @@ const CardInfo = () => {
           <CardTitle>
             <h2>Virtual Credit Visa</h2>
             <CardControls>
-              <Switch id="tarjeta" label="Tarjeta" active={true}/>
-              <Switch id="travel+" label="Travel +" active={true}/>
+              <Switch label="Tarjeta" active={true}/>
+              <Switch label="Travel +" active={true}/>
             </CardControls>
           </CardTitle>
           <CardCredit>
