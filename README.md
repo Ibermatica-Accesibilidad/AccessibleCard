@@ -1,12 +1,12 @@
 # Accessible demo component.
 
 ## Accessibility improvements:
-
 - 
 - Accesible table: Added column scopes, roles, icon descriptions to relate categories, fixed empty header accessibility issue.
 - Table Header: Abbreviations should be avoided if the text can fit properly within the space, we removed some of them.
 - Table content: The space between the minus symbol and the money amount have been removed to let users understand that the amount is a negative value.
 - Color contrast issue on the footer link: We replaced the color (this should be discussed with designers before a change). Colors should be checked to avoid contrast issues.
+
 ## Available Scripts
 
 In the project directory, you can run:
