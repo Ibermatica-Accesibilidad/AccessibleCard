@@ -37,10 +37,6 @@ const CardControls = styled.div`
   display: flex;
 `
 
-const CardCredit = styled.div`
-  width: 100%;
-`
-
 const CardInfo = () => {
   return (
     <section>
@@ -52,8 +48,8 @@ const CardInfo = () => {
           <CardTitle>
             <h2>Virtual Credit Visa</h2>
             <CardControls>
-              <Switch label="Tarjeta" active={true}/>
-              <Switch label="Travel +" active={true}/>
+              <Switch id="tarjeta" label="Tarjeta" active={true}/>
+              <Switch id="travelplus" label="Travel +" active={true}/>
             </CardControls>
           </CardTitle>
           <ProgressBar />
