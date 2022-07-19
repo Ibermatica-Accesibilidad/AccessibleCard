@@ -27,7 +27,7 @@ const Switch = (props) => {
         </div>
         <input
           className="switch__input"
-          aria-label={props.id}
+          aria-labelledby="switch-label"
           type="checkbox"
           checked={isChecked}
           onChange={updateCheckbox}
