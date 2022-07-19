@@ -57,7 +57,7 @@ const Table = () => {
         <tr role="row">
           <th role="columnheader" scope="col">Fecha y categoría</th>
           <th className="txt-align-left" role="columnheader" scope="col">Descripción</th>
-          <th role="columnheader" scope="col"></th>
+          <th role="columnheader" scope="col"><span class="sr-only">Estado</span></th>
           <th className="txt-align-right" role="columnheader" scope="col">Importe y situación</th>
         </tr>
       </thead>
