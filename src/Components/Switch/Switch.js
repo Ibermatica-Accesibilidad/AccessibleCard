@@ -12,12 +12,12 @@ const Switch = (props) => {
           <div role="checkbox" aria-checked={active} aria-labelledby={props.label} className={`switch__toggle ${active ? 'checked' : null}`}>{active}</div>
           <div className={`switch__inside-text ${active ? 'checked' : null}`}>{active ? 'ON' : 'OFF'}</div>
           <input
-          className="switch__input"
-          aria-labelledby="switch-label"
-          aria-hidden="true"
-          type="checkbox"
-          checked={active}
-          onChange={updateCheckbox} />
+            className="switch__input"
+            aria-labelledby="switch-label"
+            aria-hidden="true"
+            type="checkbox"
+            checked={active}
+            onChange={updateCheckbox} />
         </div>  
     </div>
   );
