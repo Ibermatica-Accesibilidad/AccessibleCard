@@ -1,8 +1,7 @@
-.cardinfo { 
+.cardinfo {
+
   &__icon-wraper {
-    display: flex;
-    align-items: flex-start;
-    align-content: flex-start;
+    margin-left: 15px;
 
     img {
       width: 100%;

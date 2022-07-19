@@ -11,8 +11,8 @@ const App = () => {
       </Header>
       <div id="content" className="content">
         <CardInfo />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

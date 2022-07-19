@@ -2,6 +2,7 @@ import './CardInfo.scss';
 import styled from 'styled-components';
 import CardIcon from './../Assets/Images/icons-card.svg';
 import Switch from './../Components/Switch/Switch';
+import ProgressBar from './../Components/ProgressBar/ProgressBar';
 import Table from './../Components/Table/Table';
 
 const CardDetailsWrapper = styled.div`
@@ -14,6 +15,7 @@ const CardCreditWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-left: 30px;
 `
 
 const CardTitle = styled.div`
@@ -22,6 +24,7 @@ const CardTitle = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 20px;
 
   h2 {
     font-size: 1.125rem;
@@ -53,9 +56,7 @@ const CardInfo = () => {
               <Switch label="Travel +" active={true}/>
             </CardControls>
           </CardTitle>
-          <CardCredit>
-            credito progresso
-          </CardCredit>
+          <ProgressBar />
         </CardCreditWrapper>
       </CardDetailsWrapper>
       <Table />

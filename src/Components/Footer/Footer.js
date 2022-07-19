@@ -9,8 +9,9 @@ const StyledFooter = styled.footer`
   height: 60px;
   background-color: #E9F5E7;
   bottom: 0;
-  position: fixed;
   z-index: 10;
+  position: fixed;
+  width: 798px;
 
   p {
     margin-left: 20px;
