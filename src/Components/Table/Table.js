@@ -13,7 +13,7 @@ const StyledTable = styled.table`
     background-color: #F1F4F4;
     height: 40px;
     color: #0A2B44;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     text-transform: uppercase;
 
@@ -26,7 +26,7 @@ const StyledTable = styled.table`
 
   tbody {
     padding: 0 20px;
-    font-size: 14px;
+    font-size: 0.875rem;
 
     tr {
       border-bottom: 1px solid #E3E9E9;

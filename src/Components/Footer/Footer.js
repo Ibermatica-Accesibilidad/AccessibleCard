@@ -17,7 +17,7 @@ const StyledFooter = styled.footer`
     font-size: 0.875rem;
 
     a {
-      color: #2A77C0;
+      color: #17374E; // To avoid contrast accessibility issues.
       text-decoration: underline;
     }
   }

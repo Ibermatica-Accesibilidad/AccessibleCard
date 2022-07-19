@@ -1,7 +1,12 @@
-# Getting Started with Create React App
+# Accessible demo component.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Accessibility improvements:
 
+- 
+- Accesible table: Added column scopes, roles, icon descriptions to relate categories, fixed empty header accessibility issue.
+- Table Header: Abbreviations should be avoided if the text can fit properly within the space, we removed some of them.
+- Table content: The space between the minus symbol and the money amount have been removed to let users understand that the amount is a negative value.
+- Color contrast issue on the footer link: We replaced the color (this should be discussed with designers before a change). Colors should be checked to avoid contrast issues.
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

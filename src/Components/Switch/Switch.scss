@@ -45,14 +45,14 @@
   &__inside-text {
     font-weight: bold;
     width: auto;
-    line-height: 26px;
-    font-size: 10px;
+    line-height: 1.625rem;
+    font-size: 0.625rem;
     color: #FFFFFF;
-    transform: translateX(10px);
+    transform: translateX(0.625rem);
     transition: transform 0.15s;
 
     &.checked {
-      transform: translateX(-10px);
+      transform: translateX(-0.625rem);
     }
   }
 
