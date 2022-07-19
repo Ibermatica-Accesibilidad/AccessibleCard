@@ -11,7 +11,7 @@ const Switch = (props) => {
 
   return (
     <div className="switch">
-      <div className="switch__label" id={props.id} aria-hidden="true">
+      <div className="switch__label" id={props.id} >
         {props.label}
       </div>
       <div
@@ -27,7 +27,7 @@ const Switch = (props) => {
         </div>
         <input
           className="switch__input"
-          aria-labelledby="switch-label"
+          aria-labelledby={props.id}
           type="checkbox"
           checked={isChecked}
           onChange={updateCheckbox}
