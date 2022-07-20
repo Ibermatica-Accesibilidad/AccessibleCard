@@ -15,13 +15,13 @@ const ProgressBar = (props) => {
 
       <div className="progress-bar__credit-info flex row space-between">
         <dl className="flex column txt-align-left">
-          <dt>Límite de crédito</dt>
-          <dd>1500,00€</dd>
+          <dt>Dispuesto</dt>
+          <dd>500,00€</dd>
         </dl>
 
         <dl className="flex column txt-align-right">
-          <dt>Límite de crédito</dt>
-          <dd>1500,00€</dd>
+          <dt>Disponble</dt>
+          <dd>1000,00€</dd>
         </dl>
       </div>
     </div>

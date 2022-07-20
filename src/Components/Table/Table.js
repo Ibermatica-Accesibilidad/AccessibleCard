@@ -26,7 +26,7 @@ const StyledTable = styled.table`
   }
 
   tbody {
-    padding: 0 20px;
+    padding: 0 1.25rem;
     font-size: 0.875rem;
 
     tr {
