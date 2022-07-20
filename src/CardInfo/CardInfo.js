@@ -9,24 +9,25 @@ const CardDetailsWrapper = styled.section`
   width: 100%;
   display: flex;
   align-items: flex-start;
-  padding: 0 30px;
-  margin-bottom: 30px;
+  padding: 0 1.875rem;
+  margin-bottom: 1.875rem;
 `
 
 const CardCreditWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 `
 
 const CardTitle = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 
   h2 {
     font-size: 1.125rem;

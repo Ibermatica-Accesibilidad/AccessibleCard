@@ -48,14 +48,6 @@ const StyledTable = styled.table`
     width: 35px;
     height: 35px;
   }
-
-  // .first {
-  //   padding-left: 30px;
-  // }
-
-  // .p-r-30 {
-  //   padding-right: 30px;
-  // }
 `;
 
 const Table = () => {
@@ -64,7 +56,7 @@ const Table = () => {
       <caption className="sr-only">Tabla de movimientos de su tarjeta bancaria</caption>
       <thead>
         <tr role="row">
-          <th className="first" role="columnheader" scope="col">Fecha y categoría</th>
+          <th className="p-l-30 txt-align-center" role="columnheader" scope="col">Fecha y categoría</th>
           <th className="txt-align-left" role="columnheader" scope="col">Descripción</th>
           <th role="columnheader" scope="col"><span className="sr-only">Estado</span></th>
           <th className="p-r-30 txt-align-right" role="columnheader" scope="col">Importe y situación</th>
@@ -72,7 +64,7 @@ const Table = () => {
       </thead>
       <tbody>
         <tr>
-          <th className="flex column txt-align-center p-l-30">
+          <th className="flex column align-center txt-align-center p-l-30">
             <div className="m-b-5">
               <img src={ShoppingIcon} alt="Compras" />
             </div>

@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./Switch.scss";
 
 const Switch = (props) => {
-
   const [isChecked, setIsChecked] = useState(props.active);
 
   const updateCheckbox = () => {
@@ -16,7 +15,7 @@ const Switch = (props) => {
       </div>
       <div
         className={`switch__toogle-wrapper ${isChecked ? "checked" : null}`}
-        onClick={() => setIsChecked((prevActive) => !prevActive)}
+        onClick={updateCheckbox}
       >
         <div className={`switch__toggle ${isChecked ? "checked" : null}`}></div>
         <div
