@@ -11,7 +11,7 @@ const Switch = (props) => {
 
   return (
     <div className={`switch ${props.class}`}>
-      <div className="switch__label" id={props.id} >
+      <div className="switch__label" id={props.id}  aria-hidden="true">
         {props.label}
       </div>
       <div
