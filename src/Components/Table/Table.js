@@ -20,7 +20,7 @@ const StyledTable = styled.table`
     tr {
 
       th {
-        padding: 10px;
+        padding: 0.625rem;
       }
     }
   }
@@ -33,13 +33,13 @@ const StyledTable = styled.table`
       border-bottom: 1px solid #E3E9E9;
 
       th {
-        padding: 10px;
+        padding: 0.625rem;
         color: #436374;
         font-weight: 500;
       }
 
       td {
-        padding: 10px;
+        padding: 0.625rem;
       }
     }
   }

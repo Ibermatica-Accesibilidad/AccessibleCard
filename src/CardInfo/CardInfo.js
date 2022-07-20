@@ -1,4 +1,5 @@
 import './CardInfo.scss';
+import { useState, useEffect } from "react";
 import styled from 'styled-components';
 import CardIcon from './../Assets/Images/icons-card.svg';
 import Switch from './../Components/Switch/Switch';
@@ -37,6 +38,16 @@ const CardTitle = styled.div`
 `
 
 const CardInfo = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const breakpoint = 620;
+
+  useEffect(() => {
+    const handleWindowResize = () => setWidth(window.innerWidth)
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => window.removeEventListener("resize", handleWindowResize);
+  }, []);
+
   return (
     <>
       <CardDetailsWrapper>
