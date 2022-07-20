@@ -5,12 +5,12 @@ import Switch from './../Components/Switch/Switch';
 import ProgressBar from './../Components/ProgressBar/ProgressBar';
 import Table from './../Components/Table/Table';
 
-const CardDetailsWrapper = styled.div`
+const CardDetailsWrapper = styled.section`
   width: 100%;
   display: flex;
   align-items: flex-start;
   padding: 0 30px;
-  margin: 0;
+  margin-bottom: 30px;
 `
 
 const CardCreditWrapper = styled.div`
