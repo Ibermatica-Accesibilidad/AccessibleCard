@@ -9,6 +9,8 @@ const CardDetailsWrapper = styled.div`
   width: 100%;
   display: flex;
   align-items: flex-start;
+  padding: 0 30px;
+  margin: 0;
 `
 
 const CardCreditWrapper = styled.div`
@@ -33,30 +35,26 @@ const CardTitle = styled.div`
   }
 `
 
-const CardControls = styled.div`
-  display: flex;
-`
-
 const CardInfo = () => {
   return (
-    <section>
+    <>
       <CardDetailsWrapper>
         <div className="cardinfo__icon-wraper">
           <img src={CardIcon} alt="" />
         </div>
         <CardCreditWrapper>
-          <CardTitle>
+          <CardTitle className="p-r-30">
             <h2>Virtual Credit Visa</h2>
-            <CardControls>
-              <Switch id="tarjeta" label="Tarjeta" active={true}/>
-              <Switch id="travelplus" label="Travel +" active={true}/>
-            </CardControls>
+            <div className="flex row">
+              <Switch id="tarjeta" label="Tarjeta" active={true} class="m-r-10" />
+              <Switch id="travelplus" label="Travel +" active={true} />
+            </div>
           </CardTitle>
           <ProgressBar />
         </CardCreditWrapper>
       </CardDetailsWrapper>
       <Table />
-    </section>
+    </>
   );
 };
 

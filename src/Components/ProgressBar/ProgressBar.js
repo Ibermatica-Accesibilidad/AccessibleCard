@@ -3,8 +3,8 @@ import './ProgressBar.scss';
 const ProgressBar = (props) => {
 
   return (
-    <div className="progress-bar">
-      <dl className="progress-bar__credit-limit">
+    <div className="progress-bar flex column">
+      <dl className="progress-bar__credit-limit flex row space-between">
         <dt>Límite de crédito</dt>
         <dd>1500,00€</dd>
       </dl>
@@ -13,6 +13,17 @@ const ProgressBar = (props) => {
         <div className="progress-bar__filled-percentage"></div>
       </div>
 
+      <div className="progress-bar__credit-info flex row space-between">
+        <dl className="flex column txt-align-left">
+          <dt>Límite de crédito</dt>
+          <dd>1500,00€</dd>
+        </dl>
+
+        <dl className="flex column txt-align-right">
+          <dt>Límite de crédito</dt>
+          <dd>1500,00€</dd>
+        </dl>
+      </div>
     </div>
   );
 };

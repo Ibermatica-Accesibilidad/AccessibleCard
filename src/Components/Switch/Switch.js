@@ -10,7 +10,7 @@ const Switch = (props) => {
   }
 
   return (
-    <div className="switch">
+    <div className={`switch ${props.class}`}>
       <div className="switch__label" id={props.id} >
         {props.label}
       </div>

@@ -9,10 +9,10 @@ const App = () => {
       <Header>
         <h1>O Bank tarjetas de credito</h1>
       </Header>
-      <div id="content" className="content">
+      <main id="main" role="main" className="main">
         <CardInfo />
-        <Footer />
-      </div>
+      </main>
+      <Footer />
     </div>
   );
 }

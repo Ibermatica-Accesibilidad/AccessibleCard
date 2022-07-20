@@ -1,12 +1,14 @@
 .App {
-  text-align: center;
   height: 100%;
+  width: 800px;
+  margin: 0 auto;
+  // box-shadow: 5px 5px 8px -5px rgb(0 0 0 / 34%);
 
-  .content {
-    width: 800px;
+  .main {
     height: 100%;
-    margin: 100px auto 60px;
-    box-shadow: 5px 5px 8px -5px rgba(0,0,0,0.34);
+    margin: 60px auto 60px;
+    padding: 20px 0;
+    box-shadow: 5px 5px 8px -5px rgb(0 0 0 / 34%);
     border-left: 2px solid #45C3DF;
     position: relative;
   }

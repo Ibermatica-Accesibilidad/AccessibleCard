@@ -4,10 +4,11 @@ const StyledHeader = styled.header`
   position: fixed;
   display: flex;
   top: 0;
+  left: 0;
   background-color: #17374E;
   color: #FFFFFF;
-  height: 60px;
   width: 100%;
+  height: 60px;
   padding: 0 40px;
   flex-direction: row;
   justify-content: space-between;
@@ -17,6 +18,7 @@ const StyledHeader = styled.header`
   h1 {
     color: #FFFFFF;
     margin: 0 20px 0 0;
+    font-size: 1.125rem;
   }
 `;
 
@@ -35,7 +37,7 @@ const StyledNavigation = styled.nav`
     justify-content: space-between;
   
     li {
-      margin-right: 30px;
+      margin-right: 15px;
       
       a {
         cursor: pointer;
@@ -57,10 +59,8 @@ const Header = () => {
       <StyledNavigation>
         <ul>
           <li><a href="inicio.html">Inicio</a></li>
-          <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
-          <li><a href="ventajas.html">Ventajas</a></li>
           <li><a href="contact.html">Contacto</a></li>
-          <li><a href="#content">Saltar al contenido</a></li>
+          <li><a href="#main">Saltar al contenido</a></li>
         </ul>
       </StyledNavigation>
     </StyledHeader>
