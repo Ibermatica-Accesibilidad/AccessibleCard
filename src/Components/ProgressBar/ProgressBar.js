@@ -12,12 +12,15 @@ const ProgressBar = (props) => {
         <div className="progress-bar__filled-percentage"></div>
       </div> */}
 
-      <label className="sr-only" htmlFor="progress-bar" aria-hidden="true">Porcentage de credito utilizado</label>
+      <label className="sr-only" htmlFor="progress-bar" aria-hidden="true">Porcentage de crédito utilizado</label>
       <progress
         id="progress-bar"
         className="progress-bar__bar m-b-10"
         max={props.available}
         value={props.drawn}
+        aria-valuemin="0"
+        aria-valuemax={props.available}
+        aria-valuenow={Math.round((props.drawn / props.available))}
       >
         {`${Math.round((props.drawn / props.available) * 100)}%`}
       </progress>
