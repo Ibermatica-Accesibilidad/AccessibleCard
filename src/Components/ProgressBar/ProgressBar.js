@@ -1,6 +1,6 @@
 import './ProgressBar.scss';
 
-const ProgressBar = () => {
+const ProgressBar = (props) => {
   return (
     <div className="progress-bar flex column">
       <dl className="progress-bar__credit-limit flex row space-between">
@@ -24,7 +24,8 @@ const ProgressBar = () => {
         <dl className="flex column txt-align-right">
           <dt className="flex row align-center f-s-13 m-b-5">
             <div className="progress-bar__available m-r-5"></div>
-            Disponble</dt>
+            Disponble
+          </dt>
           <dd className="f-s-14 bold">1000,00€</dd>
         </dl>
       </div>
