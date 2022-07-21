@@ -55,14 +55,15 @@ const StyledNavigation = styled.nav`
 const Header = () => {
   return (
     <StyledHeader>
-      <h1>Virtual Bank - Tus tarjetas de un vistazo</h1>
+      
       <StyledNavigation>
         <ul>
+          <li><a href="#main">Saltar al contenido</a></li>
           <li><a href="inicio.html">Inicio</a></li>
           <li><a href="contact.html">Contacto</a></li>
-          <li><a href="#main">Saltar al contenido</a></li>
-        </ul>
+                  </ul>
       </StyledNavigation>
+      <h1>Virtual Bank - Tus tarjetas de un vistazo</h1>
     </StyledHeader>
   );
 };
