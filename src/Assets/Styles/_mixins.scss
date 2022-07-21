@@ -1,25 +1,25 @@
 $max: 50;
 $offset: 5;
-$unit: 'px';
+$unit: 'rem';
 
-@mixin spaces-generator($className, $styleName) {
+@mixin rem-spacing($className, $styleName) {
   $i: 0;
   @while $i <= $max {
     #{$className + $i} { 
-      #{$styleName}: #{$i + $unit} !important;
+      #{$styleName}: #{($i / 16) + $unit} !important;
     }
     $i: $i + $offset;
   }
 }
 
 // Margins
-@include spaces-generator('.m-t-', 'margin-top');
-@include spaces-generator('.m-r-', 'margin-right');
-@include spaces-generator('.m-b-', 'margin-bottom');
-@include spaces-generator('.m-l-', 'margin-left');
+@include rem-spacing('.m-t-', 'margin-top');
+@include rem-spacing('.m-r-', 'margin-right');
+@include rem-spacing('.m-b-', 'margin-bottom');
+@include rem-spacing('.m-l-', 'margin-left');
 
 // Paddings
-@include spaces-generator('.p-t-', 'padding-top');
-@include spaces-generator('.p-r-', 'padding-right');
-@include spaces-generator('.p-b-', 'padding-bottom');
-@include spaces-generator('.p-l-', 'padding-left');
+@include rem-spacing('.p-t-', 'padding-top');
+@include rem-spacing('.p-r-', 'padding-right');
+@include rem-spacing('.p-b-', 'padding-bottom');
+@include rem-spacing('.p-l-', 'padding-left');

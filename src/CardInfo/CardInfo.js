@@ -55,7 +55,7 @@ const CardInfo = () => {
           <img src={CardIcon} alt="" />
         </div>
         <CardCreditWrapper>
-          <CardTitle className="p-r-30">
+          <CardTitle>
             <h2>Virtual Credit Visa</h2>
             <div className="flex row">
               <Switch id="tarjeta" label="Tarjeta" active={true} class="m-r-10" />

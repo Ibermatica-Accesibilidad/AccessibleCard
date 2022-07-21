@@ -8,10 +8,6 @@ const ProgressBar = (props) => {
         <dd>{`${props.available},00€`}</dd>
       </dl>
 
-      {/* <div className="progress-bar__bar m-b-10" aria-hidden="true">
-        <div className="progress-bar__filled-percentage"></div>
-      </div> */}
-
       <label className="sr-only" htmlFor="progress-bar" aria-hidden="true">Porcentaje de crédito utilizado</label>
       <progress
         id="progress-bar"
