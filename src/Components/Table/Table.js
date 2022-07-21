@@ -130,7 +130,7 @@ const Table = () => {
         <tr>
           <th className="flex column txt-align-center p-l-30">
             <div className="m-b-5">
-              <img src={ShoppingIcon} alt="compras" />
+              <img src={ShoppingIcon} alt="Compras" />
             </div>
             05 jul.
           </th>
