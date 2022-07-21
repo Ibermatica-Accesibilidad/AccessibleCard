@@ -20,7 +20,7 @@ const ProgressBar = (props) => {
         value={props.drawn}
         aria-valuemin="0"
         aria-valuemax={props.available}
-        aria-valuenow={Math.round(props.drawn / props.available)}
+        aria-valuenow={Math.round((props.drawn / props.available) * 100).toString()}
       >
         {`${Math.round((props.drawn / props.available) * 100)}%`}
       </progress>
