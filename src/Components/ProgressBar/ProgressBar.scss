@@ -8,21 +8,48 @@
         font-size: 0.875rem;
     }
 
-    &__bar {
+    @mixin progress-bar {
         width: 100%;
         height: 6px;
         border-radius: 6px;
         background-color: #CCD5DA;
-        position: relative;
+        border: 0;
     }
 
-    &__filled-percentage {
-        position: absolute;
-        border-radius: 6px;
-        width: 40%;
-        height: 100%;
-        background-color: orange;
+    progress {
+        @include progress-bar;
+
+        &::-webkit-progress-bar {
+            @include progress-bar;
+        }
+
+        &::-webkit-progress-value {
+            border-radius: 6px;
+            width: 40%;
+            height: 100%;
+            background-color: orange;
+        }
+
+        &::-moz-progress-bar {
+            @include progress-bar;   
+        }
     }
+
+    // &__bar {
+    //     width: 100%;
+    //     height: 6px;
+    //     border-radius: 6px;
+    //     background-color: #CCD5DA;
+    //     position: relative;
+    // }
+
+    // &__filled-percentage {
+    //     position: absolute;
+    //     border-radius: 6px;
+    //     width: 40%;
+    //     height: 100%;
+    //     background-color: orange;
+    // }
 
     &__drawn {
         width: 8px;

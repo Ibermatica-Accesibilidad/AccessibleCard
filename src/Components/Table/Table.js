@@ -68,7 +68,7 @@ const Table = () => {
             <div className="m-b-5">
               <img src={ShoppingIcon} alt="Compras" />
             </div>
-            <time datetime="07-05">05 jul.</time>
+            <time dateTime="07-05">05 jul.</time>
           </th>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
           <td>Aplazada</td>
@@ -84,7 +84,7 @@ const Table = () => {
             <div className="m-b-5">
               <img src={TravelIcon} alt="Viajes" />
             </div>
-            <time datetime="10-03">03 oct.</time>
+            <time dateTime="10-03">03 oct.</time>
           </th>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
           <td><button type="button">Aplazar compra</button></td>

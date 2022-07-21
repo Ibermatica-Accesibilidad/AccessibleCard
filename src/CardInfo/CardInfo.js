@@ -62,7 +62,7 @@ const CardInfo = () => {
               <Switch id="travelplus" label="Travel +" active={true} />
             </div>
           </CardTitle>
-          <ProgressBar />
+          <ProgressBar available={1500} drawn={500} />
         </CardCreditWrapper>
       </CardDetailsWrapper>
       <Table />
