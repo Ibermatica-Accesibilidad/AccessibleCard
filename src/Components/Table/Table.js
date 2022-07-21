@@ -64,12 +64,12 @@ const Table = () => {
       </thead>
       <tbody>
         <tr>
-          <th className="flex column align-center txt-align-center p-l-30">
+          <td className="flex column align-center txt-align-center p-l-30">
             <div className="m-b-5">
               <img src={ShoppingIcon} alt="Compras" />
             </div>
             <time dateTime="07-05">05 jul.</time>
-          </th>
+          </td>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
           <td>Aplazada</td>
           <td className="txt-align-right p-r-30">
@@ -80,12 +80,12 @@ const Table = () => {
           </td>
         </tr>
         <tr>
-          <th className="flex column txt-align-center p-l-30">
+          <td className="flex column txt-align-center p-l-30">
             <div className="m-b-5">
               <img src={TravelIcon} alt="Viajes" />
             </div>
             <time dateTime="10-03">03 oct.</time>
-          </th>
+          </td>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
           <td><button type="button">Aplazar compra</button></td>
           <td className="txt-align-right p-r-30">
@@ -96,12 +96,12 @@ const Table = () => {
           </td>
         </tr>
         <tr>
-          <th className="flex column txt-align-center p-l-30">
+          <td className="flex column txt-align-center p-l-30">
             <div className="m-b-5">
               <img src={HomeIcon} alt="Hogar" />
             </div>
             05 jul.
-          </th>
+          </td>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
           <td></td>
           <td className="txt-align-right p-r-30">
@@ -112,12 +112,12 @@ const Table = () => {
           </td>
         </tr>
         <tr>
-          <th className="flex column txt-align-center p-l-30">
+          <td className="flex column txt-align-center p-l-30">
             <div className="m-b-5">
               <img src={HealthIcon} alt="Salud" />
             </div>
             05 jul.
-          </th>
+          </td>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
           <td></td>
           <td className="txt-align-right p-r-30">
@@ -128,12 +128,12 @@ const Table = () => {
           </td>
         </tr>
         <tr>
-          <th className="flex column txt-align-center p-l-30">
+          <td className="flex column txt-align-center p-l-30">
             <div className="m-b-5">
               <img src={ShoppingIcon} alt="Compras" />
             </div>
             05 jul.
-          </th>
+          </td>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
           <td></td>
           <td className="align-center txt-align-right p-r-30">
