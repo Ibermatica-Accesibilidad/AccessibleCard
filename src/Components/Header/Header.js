@@ -9,7 +9,7 @@ const StyledHeader = styled.header`
   color: #FFFFFF;
   width: 100%;
   height: 60px;
-  padding: 0 40px;
+  padding: 0 2.5rem;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
 
   h1 {
     color: #FFFFFF;
-    margin: 0 20px 0 0;
+    margin: 0 1.25rem 0 0;
     font-size: 1.125rem;
   }
 `;
@@ -37,7 +37,7 @@ const StyledNavigation = styled.nav`
     justify-content: space-between;
   
     li {
-      margin-right: 15px;
+      margin-right: 0.9375rem;
       
       a {
         cursor: pointer;

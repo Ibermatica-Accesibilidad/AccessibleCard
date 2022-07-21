@@ -17,9 +17,11 @@ $unit: 'rem';
 @include rem-spacing('.m-r-', 'margin-right');
 @include rem-spacing('.m-b-', 'margin-bottom');
 @include rem-spacing('.m-l-', 'margin-left');
+@include rem-spacing('.m-', 'margin');
 
 // Paddings
 @include rem-spacing('.p-t-', 'padding-top');
 @include rem-spacing('.p-r-', 'padding-right');
 @include rem-spacing('.p-b-', 'padding-bottom');
 @include rem-spacing('.p-l-', 'padding-left');
+@include rem-spacing('.p-', 'padding');

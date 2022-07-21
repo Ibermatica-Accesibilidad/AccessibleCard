@@ -23,7 +23,7 @@ const ProgressBar = (props) => {
 
       <div className="progress-bar__credit-info flex row space-between">
         <dl className="flex column txt-align-left">
-          <dt className="flex row align-center f-s-13 m-b-5">
+          <dt className="flex row v-center f-s-13 m-b-5">
             <div className="progress-bar__drawn m-r-5"></div>
             Dispuesto
           </dt>
@@ -31,7 +31,7 @@ const ProgressBar = (props) => {
         </dl>
 
         <dl className="flex column txt-align-right">
-          <dt className="flex row align-center f-s-13 m-b-5">
+          <dt className="flex row v-center f-s-13 m-b-5">
             <div className="progress-bar__available m-r-5"></div>
             Disponible
           </dt>

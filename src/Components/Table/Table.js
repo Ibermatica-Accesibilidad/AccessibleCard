@@ -4,6 +4,7 @@ import ShoppingIcon from './../../Assets/Images/icons-shop.svg';
 import HealthIcon from './../../Assets/Images/icons-health.svg';
 import HomeIcon from './../../Assets/Images/icons-home.svg';
 import TravelIcon from './../../Assets/Images/icons-travel.svg';
+import Button from './../Button/Button';
 
 const StyledTable = styled.table`
   width: 100%;
@@ -71,7 +72,7 @@ const Table = () => {
             <time dateTime="07-05">05 jul.</time>
           </td>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
-          <td>Aplazada</td>
+          <td className="flex right"><Button text="Aplazada" disabled={true} /></td>
           <td className="txt-align-right p-r-30">
             <div className="flex column">
               <span className="m-b-10 bold">-1.000,00€</span>
@@ -87,7 +88,7 @@ const Table = () => {
             <time dateTime="10-03">03 oct.</time>
           </td>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
-          <td><button type="button">Aplazar compra</button></td>
+          <td className="flex right"><Button text="Aplazar compra" /></td>
           <td className="txt-align-right p-r-30">
             <div className="flex column">
               <span className="m-b-10 bold">500,00€</span>
@@ -136,7 +137,7 @@ const Table = () => {
           </td>
           <td className="txt-align-left">Descripción de movimiento de una o dos lineas según sea necesario.</td>
           <td></td>
-          <td className="align-center txt-align-right p-r-30">
+          <td className="v-center txt-align-right p-r-30">
             <div className="flex column">
               <span className="m-b-10 bold">-400,00€</span>
               <span>Liquidado</span>

@@ -33,7 +33,7 @@ const CardTitle = styled.div`
   h2 {
     font-size: 1.125rem;
     flex-shrink: 0;
-    margin: 5px 0;
+    margin: 0.3125rem 0;
   }
 `
 
