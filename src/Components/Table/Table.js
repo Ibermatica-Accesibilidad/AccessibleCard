@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import "./Table.scss";
 import ShoppingIcon from './../../Assets/Images/icons-shop.svg';
 import HealthIcon from './../../Assets/Images/icons-health.svg';
 import HomeIcon from './../../Assets/Images/icons-home.svg';
@@ -19,7 +18,7 @@ const StyledTable = styled.table`
     text-transform: uppercase;
 
     tr {
-
+    
       th {
         padding: 0.625rem;
       }

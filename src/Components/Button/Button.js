@@ -10,6 +10,7 @@ const StyledButton = styled.button`
   padding: 0.3125rem;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
 `;
 
 const Button = (props) => {
