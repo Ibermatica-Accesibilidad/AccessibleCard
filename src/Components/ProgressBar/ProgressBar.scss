@@ -16,6 +16,13 @@
         border: 0;
     }
 
+    @mixin progress-bar-inner {
+        border-radius: 6px;
+        width: 40%;
+        height: 100%;
+        background-color: orange;
+    }
+
     progress {
         @include progress-bar;
 
@@ -24,14 +31,11 @@
         }
 
         &::-webkit-progress-value {
-            border-radius: 6px;
-            width: 40%;
-            height: 100%;
-            background-color: orange;
+            @include progress-bar-inner;
         }
 
         &::-moz-progress-bar {
-            @include progress-bar;   
+            @include progress-bar-inner;
         }
     }
 
