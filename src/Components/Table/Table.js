@@ -18,7 +18,7 @@ const StyledTable = styled.table`
     text-transform: uppercase;
 
     tr {
-    
+
       th {
         padding: 0.625rem;
       }

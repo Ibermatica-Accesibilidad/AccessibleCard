@@ -4,6 +4,7 @@ import { ReactComponent as SolidarityCardIcon } from './../../Assets/Images/icon
 const StyledFooter = styled.footer`
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   padding: 0 2.5rem;
   margin-left: 0;
   width: 100%;

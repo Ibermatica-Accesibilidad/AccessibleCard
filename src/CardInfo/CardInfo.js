@@ -1,5 +1,4 @@
 import './CardInfo.scss';
-import { useState, useEffect } from "react";
 import styled from 'styled-components';
 import CardIcon from './../Assets/Images/icons-card.svg';
 import Switch from './../Components/Switch/Switch';
